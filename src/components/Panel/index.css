@@ -1,0 +1,12 @@
+.Panel {
+  background-color: #f0f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Panel > * {
+  flex: 1;
+  width: 100%;
+}
