@@ -1,0 +1,23 @@
+.Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 100vh;
+  grid-template-areas:
+    'clock   trams'
+    'weather trams';
+}
+
+.Grid > :nth-child(1) {
+  grid-area: clock;
+}
+
+.Grid > :nth-child(2) {
+  grid-area: weather;
+  background-color: #111;
+}
+
+.Grid > :nth-child(3) {
+  grid-area: trams;
+  background-color: #222;
+}

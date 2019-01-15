@@ -1,0 +1,17 @@
+.Clock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Clock > :nth-child(1) {
+  font-size: 220px;
+  color: #fdfdfd;
+  line-height: 180px;
+}
+
+.Clock > :nth-child(2) {
+  font-size: 36px;
+  color: #999;
+}
