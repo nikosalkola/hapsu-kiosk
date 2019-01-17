@@ -3,6 +3,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Grid from 'components/Grid'
 import Clock from 'components/Clock'
+import Weather from 'components/Weather'
+import Trams from 'components/Trams'
 
 
 
@@ -10,8 +12,8 @@ import Clock from 'components/Clock'
 const App = () => (
   <Grid>
     <Clock />
-    <div />
-    <div />
+    <Weather />
+    <Trams />
   </Grid>
 )
 

@@ -3,15 +3,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 50px;
 }
 
 .Clock > :nth-child(1) {
-  font-size: 220px;
+  font-size: 140px;
   color: #fdfdfd;
-  line-height: 180px;
+  line-height: 140px;
 }
 
 .Clock > :nth-child(2) {
-  font-size: 36px;
-  color: #999;
+  font-size: 24px;
+  color: #FDFDFD;
+  opacity: 0.6;
+  letter-spacing: 1px;
 }

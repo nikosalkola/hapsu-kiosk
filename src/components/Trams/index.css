@@ -1,0 +1,27 @@
+.TramsHead {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.TramsHead > :nth-child(1) {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #2ECC71;
+}
+
+.TramsHead > :nth-child(2) {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.TramsHead > :nth-child(3) {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #2ECC71;
+}

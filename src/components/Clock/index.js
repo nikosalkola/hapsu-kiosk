@@ -1,7 +1,6 @@
 import './index.css'
 import React from 'react'
 import Time from 'react-live-clock'
-import picture from './okkiva.png'
 
 
 export default () => (
@@ -14,6 +13,5 @@ export default () => (
       format={ 'dddd D.M.YYYY' }
       ticking
     />
-    <img src={ picture } alt="okkiva" />
   </div>
 )
