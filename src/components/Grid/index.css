@@ -2,8 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  height: 480px;
-  width: 800px;
+  height: 100vh;
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
@@ -15,15 +14,12 @@
 
 .Grid > :nth-child(1) {
   grid-area: clock;
-  background-color: #0D1113;
 }
 
 .Grid > :nth-child(2) {
   grid-area: weather;
-  background-color: #0D1113;
 }
 
 .Grid > :nth-child(3) {
   grid-area: trams;
-  background-color: #0D1113;
 }
